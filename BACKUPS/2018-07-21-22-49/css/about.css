@@ -1,0 +1,6 @@
+.land-page .landing-image{
+	width: 100%;
+	height: 100vh;
+	background-image: url("/images/about-image.jpg");
+	background-size: cover;
+}

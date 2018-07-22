@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="land-page" class="land-page">
+		<div class="landing-image">
+			<nav>
+				<ul>
+					<li><a class="currentSub" href="index.html">Home</a></li>
+					<li><a href="contact/contact.html">Contact Us</a></li>
+					<li><a href="blog/blog.html">Blog</a></li>
+					<li><a href="about/about.html">About Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1>Home Page</h1>
+	</div>
+	
+	<footer>
+		<div class="nav-foot">
+			<div class="logo-foot">
+				<img src="/images/logo.jpg">
+			</div>
+			<div class="logo-right-foot">
+				<p>Come Explore With Us</p>
+			</div>
+			<ul>
+				<li><a class="currentSub" href="index.html">Home</a></li>
+				<li><a href="contact/contact.html">Contact Us</a></li>
+				<li><a href="blog/blog.html">Blog</a></li>
+				<li><a href="about/about.html">About Us</a></li>
+			</ul>
+		</div>
+		<div class="social-det-foot">
+			<div class="social">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-telegram"></i></a>
+				<a href="#"><i class="fa fa-pinterest"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+			</div>
+			<hr>
+			<div class="det">
+				<h1>Company Name</h1>
+			</div>
+		</div>
+		<div class="contact-foot">
+			<form>
+				<label>Email</label>
+				<input type="text" />
+				<label>Message</label>
+				<textarea></textarea>
+				<input type="submit" class="submit"	 name="">
+			</form>
+		</div>
+	</footer>
+	<script type="text/javascript">
+
+		var header = document.getElementsByTagName("header");
+		//header[0].style.height="0";
+		window.onscroll = function(){
+			headerFunction();
+		};
+
+		function headerFunction(){
+			if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+				header[0].style.height="90px";
+			}
+			else
+			{
+				header[0].style.height="0";
+			}
+		}
+
+		function currentPage(){
+			var crntPg = document.getElementsByClassName("");
+		}
+	</script>
+</body>
+</html>
